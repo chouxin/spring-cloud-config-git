@@ -1,0 +1,18 @@
+server:
+  port: 8000   #注册中心端口是8001
+
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chouxin/spring-cloud-config-repo/   #githubcong项目
+          search-paths: config-repo
+          username: 342175867@qq.com
+          password: qiuxin123zxc
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/

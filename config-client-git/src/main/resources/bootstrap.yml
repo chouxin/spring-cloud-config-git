@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+      name: cn-qx-config
+      profile: dev
+      uri: http://localhost:8000/
+      label: master
+server:
+  port: 9000
+
+#spring.application.name：对应{application}部分
+#spring.cloud.config.name：对应配置文件名称 cn-qx-config-dev.yml
+#spring.cloud.config.profile：对应{profile}部分
+#spring.cloud.config.label：对应git的分支。如果配置中心使用的是本地存储，则该参数无用
+#spring.cloud.config.uri：配置中心的具体地址
+#spring.cloud.config.discovery.service-id：指定配置中心的service-id，便于扩展为高可用配置集群。
