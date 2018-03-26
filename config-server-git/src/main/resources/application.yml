@@ -1,5 +1,5 @@
 server:
-  port: 8000   #ע�����Ķ˿���8001
+  port: 8000  #eureka注册中心服务器端口为8001
 
 spring:
   application:
@@ -8,8 +8,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/chouxin/spring-cloud-config-repo/   #githubcong��Ŀ
-          search-paths: config-repo
+          uri: https://github.com/chouxin/spring-cloud-config-repo/    #项目名称
+          search-paths: config-repo         #资源文件 文件夹
           username: 342175867@qq.com
           password: xxxx
 eureka:
