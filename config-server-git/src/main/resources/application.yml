@@ -1,5 +1,5 @@
 server:
-  port: 8000   #×¢²áÖÐÐÄ¶Ë¿ÚÊÇ8001
+  port: 8000   #×¢ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶Ë¿ï¿½ï¿½ï¿½8001
 
 spring:
   application:
@@ -8,10 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/chouxin/spring-cloud-config-repo/   #githubcongÏîÄ¿
+          uri: https://github.com/chouxin/spring-cloud-config-repo/   #githubcongï¿½ï¿½Ä¿
           search-paths: config-repo
           username: 342175867@qq.com
-          password: qiuxin123zxc
+          password: xxxx
 eureka:
   client:
     service-url:
